@@ -19,7 +19,7 @@ const DashboardPage = () => {
   const [topItems, setTopItems] = useState([]);
 
   // API Base URL - Replace with your actual API URL
-  const API_BASE = 'http://localhost:4000/api';
+  const API_BASE = 'https://billing-apis-brown.vercel.app/api';
 
   const apiCall = async (endpoint) => {
     const token = localStorage.getItem('token'); // Your auth token
