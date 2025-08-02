@@ -18,7 +18,7 @@ import Sidebar from './pages/SideBar';
 import SettingsPage from './pages/Settings';
 
 // API Configuration
-const API_BASE_URL = 'https://billing-apis-brown.vercel.app/api';
+const API_BASE_URL = 'http://localhost:4000/api';
 
 // Enhanced API Helper with better error handling
 const apiCall = async (endpoint, options = {}) => {

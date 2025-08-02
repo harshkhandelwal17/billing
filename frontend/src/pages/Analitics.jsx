@@ -18,7 +18,7 @@ const AnalyticsPage = () => {
   const [dateRange, setDateRange] = useState('today');
   const [selectedPeriod, setSelectedPeriod] = useState('7');
 
-  const API_BASE_URL = 'https://billing-apis-brown.vercel.app/api';
+  const API_BASE_URL = 'http://localhost:4000/api';
 
   const apiCall = async (endpoint, options = {}) => {
     const token = localStorage.getItem('token');

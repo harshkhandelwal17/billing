@@ -65,7 +65,7 @@ const stockRef = useRef(null);
 const sellingPriceRef = useRef(null);
 const costPriceRef = useRef(null);
   // ============= CONFIGURATION =============
-  const API_BASE_URL = import.meta.env.REACT_APP_API_URL || 'https://billing-apis-brown.vercel.app/api';
+  const API_BASE_URL = import.meta.env.REACT_APP_API_URL || 'http://localhost:4000/api';
 
   const availableCategories = [
     { value: 'starter', label: 'Starters', icon: '🥗', color: 'bg-green-100 text-green-700' },

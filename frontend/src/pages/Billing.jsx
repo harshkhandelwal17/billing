@@ -60,7 +60,7 @@ const RestaurantBillingSystem = () => {
   const customerPhoneRef = useRef(null);
   const discountRef = useRef(null);
   // API Configuration
-  const API_BASE_URL = import.meta.env.REACT_APP_API_URL || 'https://billing-apis-brown.vercel.app/api';
+  const API_BASE_URL = import.meta.env.REACT_APP_API_URL || 'http://localhost:4000/api';
 
   const apiCall = useCallback(async (endpoint, options = {}) => {
     try {

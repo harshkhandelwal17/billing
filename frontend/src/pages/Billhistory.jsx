@@ -21,7 +21,7 @@ const BillsHistoryPage = () => {
   const [selectedBill, setSelectedBill] = useState(null);
   const [showBillModal, setShowBillModal] = useState(false);
 
-  const API_BASE_URL = 'https://billing-apis-brown.vercel.app/api';
+  const API_BASE_URL = 'http://localhost:4000/api';
 
   const apiCall = async (endpoint, options = {}) => {
     const token = localStorage.getItem('token');
