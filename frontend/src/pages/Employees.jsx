@@ -69,7 +69,7 @@ const EmployeeManagementSystem = () => {
     }
   });
 
-  const API_BASE_URL = 'http://localhost:4000/api';
+  const API_BASE_URL = 'https://billing-apis-brown.vercel.app/api';
 
   // API helper function
   const apiCall = async (endpoint, options = {}) => {

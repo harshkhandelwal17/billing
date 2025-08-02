@@ -6,7 +6,7 @@
 //   const [loading, setLoading] = useState(false);
 //   const [error, setError] = useState('');
 
-//   const API_BASE_URL = 'http://localhost:4000/api';
+//   const API_BASE_URL = 'https://billing-apis-brown.vercel.app/api';
 
 //   const apiCall = async (endpoint, options = {}) => {
 //     const config = {
@@ -157,7 +157,7 @@
 import React, { useState } from 'react';
 import { Utensils, Eye, EyeOff, AlertCircle, Loader2 } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:4000/api';
+const API_BASE_URL = 'https://billing-apis-brown.vercel.app/api';
 
 const apiCall = async (endpoint, options = {}) => {
   const config = {
