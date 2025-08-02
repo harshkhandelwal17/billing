@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Database connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://harsh:harsh@unifiedcampus.i5fit.mongodb.net/billing_software1?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://harsh:harsh@unifiedcampus.i5fit.mongodb.net/billing_software1?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
