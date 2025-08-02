@@ -3,7 +3,7 @@ import {
   Search, Filter, Eye, Download, Calendar, 
   Receipt, DollarSign, Clock, User, Phone,
   ChevronLeft, ChevronRight, X, Printer,
-  CreditCard, CheckCircle, XCircle, AlertCircle
+  CreditCard, CheckCircle, XCircle, AlertCircle 
 } from 'lucide-react';
 
 const BillsHistoryPage = () => {

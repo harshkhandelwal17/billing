@@ -9,7 +9,7 @@ import {
 // Import Pages
 import DashboardPage from './pages/Dashboard';
 import BillingPage from './pages/Billing';
-import MenuManagementPage from './pages/Menu';
+import MenuManagementPage from './pages/Menu'; 
 import EmployeesPage from './pages/Employees';
 import AnalyticsPage from './pages/Analitics';
 import BillsHistoryPage from './pages/Billhistory';
